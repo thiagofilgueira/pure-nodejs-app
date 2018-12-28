@@ -1,0 +1,19 @@
+{
+  "name": "pure-nodejs-app",
+  "version": "1.0.0",
+  "description": "Sample pure NodeJs application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["NodeJS", "Pure Node JS"],
+  "author": "Thiago Filgueira de Moura",
+  "license": "ISC",
+  "dependencies": {
+    "faker": "4.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.9"
+  }
+}
