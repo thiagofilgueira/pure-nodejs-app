@@ -19,6 +19,7 @@ function RootController(request, response) {
             <p><small>My sample pure NodeJs application utilize fake.js template.</small></p>
             <p><small>Read more about fake.js template <a href="https://github.com/Marak/faker.js/wiki" target="_blank">here</a>!</small></p>
         `;
+        response.statusCode = 400;
     } else {
         result = faker.fake(parameters.template);
     }

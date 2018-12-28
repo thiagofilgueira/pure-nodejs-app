@@ -22,6 +22,7 @@ function TemplateController(request, response) {
         response.setHeader(
             'content-type', 'text/html; charset=UTF-8'
         );
+        response.statusCode = 400;
         response.write(result);
     } else {
         result = faker.fake(template);
